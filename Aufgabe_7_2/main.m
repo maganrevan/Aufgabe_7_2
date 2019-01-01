@@ -7,11 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Class.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        listenelem *listenAnfang = [listenelem new];
+        
+        [listenAnfang setData:@"Element 1"];
+        
+        [listenAnfang setStart:listenAnfang];
+        
+        [listenAnfang markLast:listenAnfang];
+        
+        
+        for(int i = 2; i < 10; i++){
+            [listenAnfang append:[NSString stringWithFormat:@"Element %d", i]];
+        }
+        
+        [listenAnfang show];
     }
     return 0;
 }
