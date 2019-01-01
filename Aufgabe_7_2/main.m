@@ -1,6 +1,10 @@
 //
 //  main.m
-//  Aufgabe_7_2
+
+/*####################################################
+                Einsendeaufgabe 7.2
+ ################################################### */
+
 //
 //  Created by Magnus Kruschwitz on 01.01.19.
 //  Copyright © 2019 Magnus Kruschwitz. All rights reserved.
