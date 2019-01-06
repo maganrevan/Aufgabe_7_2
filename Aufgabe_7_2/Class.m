@@ -27,7 +27,8 @@
         [self markLast:tmpVar];
     }
     else{
-        [_listStart.listEnd.next append:dataNew];
+        [_listStart markLast:_listStart.listEnd.next];
+        [_listStart.listEnd append:dataNew];
     }
 }
 
